@@ -1,0 +1,15 @@
+p{
+	color:red;
+	font-size: 30px;
+	}
+
+	.destaque{
+		font-family: cursive;
+		font-weight: bold;
+	}
+
+	#first{
+		color: blue;
+		text-align: center;
+		border-bottom: 1px solid #000;
+	}

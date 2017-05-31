@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>Meu Formulário</title>
+	</head>
+
+	<body>
+		<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post">
+			<fieldset>
+				<legend> Dados Cadastrais</legend>
+				<p>
+					<label for="nome">Nome: </label>
+					<input id="nome" type="text" name="nome">
+				</p>
+				
+				<p>
+					<label for="cpf">CPF: </label>
+					<input id="cpf" type="text" name="CPF">
+				</p>
+
+				<p>
+					<label for="sexo">Sexo:</label>
+					<label for="masc">Masc
+						<input type="radio" id="masc" name="sexo" value="masc">
+					</label>
+					 <label for="fem">Fem
+					 	<input type="radio" id="fem" name="sexo" value="fem">
+					 </label>	
+				</p>
+
+				<p>
+					<label for="disp">Disponibilidade:</label>
+					<label for="manha">Manhã </label>
+					<input type="checkbox" id="manha" name="disp" value="manha">
+					<label for="tarde">Tarde </label>
+					<input type="checkbox" id="tarde" name="disp" value="tarde">
+					<label for="noite">Noite </label>
+					<input type="checkbox" id="noite" name="disp" value="noite">
+				</p>
+
+				<p>
+					<label for="login">Login:</label>
+					<input id="login"type="text" name="login">
+				</p>
+
+				<p>
+					<label for="senha">Senha:</label>
+					<input id="senha" type="password" name="senha">
+				</p>
+
+				<p>
+					<label for="orientador">Orientador:</label>
+					<select id="orientador" name="orientador" multiple="multiple">
+						<option>Edu Mendes</option>
+						<option>Marum Simão</option>
+						<option>Ciro</option>
+						<option>França</option>
+					</select>
+				</p>
+
+				<input type="reset" value="Apagar">
+				<input type="submit" value="Enviar">
+				
+			</fieldset>
+		</form>
+	</body>
+
+</html>
